@@ -10,13 +10,13 @@ fun menu () {
 
 fun startFunctions (user: Int, color: String, radi: Float) {
     when(user) {
-//        1 ->
-//        2 ->
-//        4 ->
+        1 -> println(Cercle(radi, color))
+        2 -> println(Cercle(radi))
+        3 -> println(Cercle())
+        4 -> Cercle().perimetre()
+        5 -> println(Cercle().area())
+        6 -> println("D'acord, fins la próxima")
     }
 }
 
-fun x (color: String, radi: Float) {
-
-}
 
