@@ -10,7 +10,6 @@ fun main () {
     println("---------------------------------------------------------------")
 
     menu()
-    val resUser
-
-
+    val user = readInt("Seleccioneu una opció:", "Input error")
+    startFunctions(user)
 }

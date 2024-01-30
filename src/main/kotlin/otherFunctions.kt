@@ -6,6 +6,12 @@ fun menu () {
     println("4. Mostrar el perímetre de l'últim cercle creat")
     println("5. Mostrar l'àrea de l'últim cercle creat")
     println("6. Sortir")
-    println("Seleccioneu una opció: ")
+}
+
+fun startFunctions (user: Int) {
+    when(user) {
+        1 -> Cercle()
+        2 -> Cercle()
+    }
 }
 

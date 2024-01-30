@@ -1,6 +1,6 @@
 class Cercle() {
     private var radi:Float = 0.0f
-    private var color:String = ""
+    private var color:String = "blanc"
 
     constructor(radi:Float):this() {
         this.radi = radi
