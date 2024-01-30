@@ -12,14 +12,14 @@ class Cercle() {
     }
 
     fun perimetre () {
-        this.radi = (2.0*(3.14)*radi).toFloat()
+        this.radi = (2*3.14*radi).toFloat()
     }
 
-//    fun area (): Float {
-//        this.radi = radi.
-//    }
-//
-//    override fun toString(): String {
-//
-//    }
+    fun area () {
+        this.radi = (3.14*radi*radi).toFloat()
+    }
+
+    override fun toString(): String {
+        return "${this.radi}, ${this.color}"
+    }
 }

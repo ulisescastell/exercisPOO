@@ -11,5 +11,9 @@ fun main () {
 
     menu()
     val user = readInt("Seleccioneu una opció:", "Input error")
-    startFunctions(user)
+    val color = readSentence("Introdueix el color", "Input incorrecte")
+    val radi = readFloat("Introdueix el radi", "Input incorrecte")
+    startFunctions(user, color, radi)
+
+
 }

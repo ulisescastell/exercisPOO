@@ -8,10 +8,15 @@ fun menu () {
     println("6. Sortir")
 }
 
-fun startFunctions (user: Int) {
+fun startFunctions (user: Int, color: String, radi: Float) {
     when(user) {
-        1 -> Cercle()
-        2 -> Cercle()
+//        1 ->
+//        2 ->
+//        4 ->
     }
+}
+
+fun x (color: String, radi: Float) {
+
 }
 
