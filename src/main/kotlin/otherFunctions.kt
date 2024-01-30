@@ -8,3 +8,4 @@ fun menu () {
     println("6. Sortir")
     println("Seleccioneu una opció: ")
 }
+

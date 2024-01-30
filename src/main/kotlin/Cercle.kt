@@ -15,11 +15,11 @@ class Cercle() {
         this.radi = (2.0*(3.14)*radi).toFloat()
     }
 
-    fun area (): Float {
-        this.radi =
-    }
-
-    override fun toString(): String {
-
-    }
+//    fun area (): Float {
+//        this.radi = radi.
+//    }
+//
+//    override fun toString(): String {
+//
+//    }
 }
